@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Галерия — ПГКПИ Спортен Клуб</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/gallery.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <div class="logo-icon">СК</div>
+    <span>ПГКПИ Спортен Клуб</span>
+  </a>
+<ul class="nav-links" id="navLinks">
+    <li><a href="index.html" >Начало</a></li>
+    <li><a href="football.html">Футбол</a></li>
+    <li><a href="basketball.html" >Баскетбол</a></li>
+    <li><a href="volleyball.html">Волейбол</a></li>
+    <li><a href="handball.html">Хандбал</a></li>
+    <li><a href="events.html">Събития</a></li>
+    <li><a href="gallery.html" class="active">Галерия</a></li> 
+    <li><a href="about.us.html">За нас</a></li>
+    <li><a href="contact.html">Запиши се</a></li>
+  </ul>
+  <button class="nav-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<header>
+  <h1>Галерия</h1>
+  <p>Емоции, победи и отборен дух в кадри</p>
+</header>
+
+<div class="gallery-container">
+  <div class="gallery-filter">
+    <button class="filter-btn active">Всички</button>
+    <button class="filter-btn">Тренировки</button>
+    <button class="filter-btn">Мачове</button>
+    <button class="filter-btn">Награждавания</button>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="../photos/football.avif" alt="Футбол">
+      <div class="overlay"><h4>Футбол</h4></div>
+    </div>
+     <!-- https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.history.com%2Farticles%2Fwhy-do-some-people-call-it-soccer&ved=0CBkQjhxqFwoTCMigl4H47ZQDFQAAAAAdAAAAABAG&opi=89978449 -->
+
+    <div class="gallery-item">
+      <img src="../photos/basketball.jpg" alt="Баскетбол">
+      <div class="overlay"><h4>Баскетбол</h4></div>
+    </div>
+     <!-- https://assets.fiba.basketball/image/upload/v1727163566/fzmo648w78xfj8xctgne.jpg -->
+
+    <div class="gallery-item">
+      <img src="../photos/volleyball.png" alt="Волейбол">
+      <div class="overlay"><h4>Волейбол</h4></div>
+    </div>
+ <!-- https://sport.usi.ch/sites/default/files/styles/usi_xsmall/public/media/sport/images/volleyball.png?itok=RWu6VGLv -->
+
+    <div class="gallery-item">
+      <img src="../photos/handball.jpg" alt="Спорт">
+      <div class="overlay"><h4>Хандбал</h4></div>
+    </div>
+ <!-- https://cdng.europosters.eu/pod_public/1300/128706.jpg -->
+
+    <div class="gallery-item">
+      <img src="../photos/awards.jpg" alt="Награда">
+      <div class="overlay"><h4>Купа ПГКПИ</h4></div>
+    </div>
+ <!-- https://www.louscalias.com/images/sports_figurines.jpg -->
+
+    <div class="gallery-item">
+      <img src="../photos/training.png" alt="Тренировка">
+      <div class="overlay"><h4>Спортен празник</h4> </div>
+  </div>
+</div>
+ <!-- https://purewinnipeg.com/wp-content/uploads/2018/07/kisspng-physical-fitness-silhouette-physical-exercise-yoga-sports-silhouette-5a84e265373299.0877979515186581492261-300x190.png -->
+
+<footer>
+  <p><strong>ПГКПИ Спортен Клуб</strong> | Ученически проект</p>
+  <p>© 2025 Всички права запазени</p>
+</footer>
+
+</body>
+</html>

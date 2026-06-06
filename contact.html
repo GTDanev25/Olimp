@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Запиши се — ПГКПИ Спортен Клуб</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+
+<nav>
+<a href="index.html" class="nav-logo">
+<div class="logo-icon">СК</div>
+<span>ПГКПИ Спортен Клуб</span>
+</a>
+<ul class="nav-links" id="navLinks">
+<li><a href="index.html" >Начало</a></li>
+<li><a href="football.html">Футбол</a></li>
+<li><a href="basketball.html" >Баскетбол</a></li>
+<li><a href="volleyball.html">Волейбол</a></li>
+<li><a href="handball.html">Хандбал</a></li>
+<li><a href="events.html">Събития</a></li>
+<li><a href="gallery.html" >Галерия</a></li>
+<li><a href="about.us.html">За нас</a></li>
+<li><a href="contact.html" class="active">Запиши се</a></li>
+</ul>
+<button class="nav-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')">
+<span></span><span></span><span></span>
+</button>
+</nav>
+
+<div class="page-hero">
+<div class="badge">✍️ ЗАПИСВАНЕ 2024/2025</div>
+<h1>Запиши се в клуба</h1>
+<p>Попълни формата по-долу и ние ще се свържем с теб в рамките на 1-2 учебни дни. Местата са ограничени!</p>
+</div>
+
+<div class="main-content">
+<div class="form-card">
+<h2>Форма за записване</h2>
+<p class="subtitle">Всички полета маркирани с <span style="color:var(--orange)">*</span> са задължителни. Данните се обработват само за нуждите на спортния клуб.</p>
+
+<div class="success-msg" id="successMsg">
+🎉 Благодарим ти! Записването е получено успешно. Ще се свържем с теб скоро!
+</div>
+
+
+<div class="form-row">
+<div class="form-group">
+<label for="firstName">Собствено име <span style="color:var(--orange)">*</span></label>
+<input type="text" id="firstName" name="Собствено_Ime" placeholder="Иван" required>
+</div>
+<div class="form-group">
+<label for="lastName">Фамилно име <span style="color:var(--orange)">*</span></label>
+<input type="text" id="lastName" name="Familno_Ime" placeholder="Петров" required>
+</div>
+</div>
+
+<div class="form-row">
+<div class="form-group">
+<label for="grade">Клас <span style="color:var(--orange)">*</span></label>
+<select id="grade" name="Klas" required>
+<option value="">— Избери клас —</option>
+<option value="8а">8а</option>
+<option value="8б">8б</option>
+<option value="8в">8в</option>
+<option value="9а">9а</option>
+<option value="9б">9б</option>
+<option value="9в">9в</option>
+<option value="10а">10а</option>
+<option value="10б">10б</option>
+<option value="10в">10в</option>
+<option value="11а">11а</option>
+<option value="11б">11б</option>
+<option value="12а">12а</option>
+<option value="12б">12б</option>
+</select>
+</div>
+<div class="form-group">
+<label for="age">Възраст <span style="color:var(--orange)">*</span></label>
+<input type="number" id="age" name="Vazrast" placeholder="16" min="13" max="19" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="email">Имейл адрес <span style="color:var(--orange)">*</span></label>
+<input type="email" id="email" name="Email" placeholder="ivan@example.com" required>
+</div>
+
+<div class="form-group">
+<label for="phone">Телефонен номер (за родител / ученик)</label>
+<input type="tel" id="phone" name="Telefon" placeholder="+359 88 123 4567">
+</div>
+
+<div class="form-group">
+<label>Избери спорт <span style="color:var(--orange)">*</span></label>
+<div class="sport-selector">
+<input type="radio" name="Sport" value="Футбол" id="sport-football" class="sport-option" required>
+<label for="sport-football" class="sport-label">
+<span class="sport-emoji">⚽</span> Футбол
+</label>
+
+<input type="radio" name="Sport" value="Баскетбол" id="sport-basketball" class="sport-option">
+<label for="sport-basketball" class="sport-label">
+<span class="sport-emoji">🏀</span> Баскетбол
+</label>
+
+<input type="radio" name="Sport" value="Волейбол" id="sport-volleyball" class="sport-option">
+<label for="sport-volleyball" class="sport-label">
+<span class="sport-emoji">🏐</span> Волейбол
+</label>
+
+<input type="radio" name="Sport" value="Хандбал" id="sport-handball" class="sport-option">
+<label for="sport-handball" class="sport-label">
+<span class="sport-emoji">🤾</span> Хандбал
+</label>
+</div>
+</div>
+
+<div class="form-group">
+<label for="experience">Предишен опит в спорта</label>
+<select id="experience" name="Opyt">
+<option value="">— Избери ниво —</option>
+<option value="Нямам опит">Нямам опит — начинаещ</option>
+<option value="Малко опит">Малко опит — тренирал съм неофициално</option>
+<option value="Среден опит">Среден опит — тренирал съм в клуб</option>
+<option value="Напреднал">Напреднал — участвал съм в турнири</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="message">Допълнителна информация или въпроси</label>
+<textarea id="message" name="Saobshtenie" placeholder="Тук можеш да напишеш всякакви въпроси, информация за здравословно състояние или друго, което смяташ за важно..."></textarea>
+</div>
+
+<div class="form-group">
+<div class="checkbox-group">
+<input type="checkbox" id="consent" name="Syglasie" value="Да" required>
+<label for="consent">
+Давам своето <strong>съгласие</strong> данните ми да бъдат обработвани от ПГКПИ Спортен Клуб единствено за целите на записването. Разбирам, че мога да ги изтрия по всяко време.
+</label>
+</div>
+</div>
+
+<button type="submit" class="submit-btn">🚀 Изпрати заявката за записване</button>
+
+<p class="form-note">
+Имате въпроси? Пишете ни директно на
+<a href="mailto:sportclub@pgkpi.bg">sportclub@pgkpi.bg</a><br>
+
+</p>
+</form>
+</div>
+
+<div class="sidebar">
+<div class="info-card">
+<h3>📞 Свържи се с нас</h3>
+<div class="contact-item">
+<div class="icon">🏫</div>
+<div>
+<strong>Адрес</strong>
+<span>ПГКПИ, ул. Спортна 1, Бургас</span>
+</div>
+</div>
+<div class="contact-item">
+<div class="icon">📧</div>
+<div>
+<strong>Имейл</strong>
+<a href="mailto:sportclub@pgkpi.bg">sportclub@pgkpi.bg</a>
+</div>
+</div>
+<div class="contact-item">
+<div class="icon">📱</div>
+<div>
+<strong>Телефон</strong>
+<a href="tel:+35956123456">+359 56 12 34 56</a>
+</div>
+</div>
+<div class="contact-item">
+<div class="icon">🕐</div>
+<div>
+<strong>Работно време</strong>
+<span>Пон – Пет: 08:00 – 17:00</span>
+</div>
+</div>
+</div>
+
+<div class="info-card">
+<h3>⚽🏀🏐🤾 Бързи връзки</h3>
+<div class="sports-quick">
+<a href="football.html" class="sport-quick-item">
+<span class="emoji">⚽</span>
+<div><div>Футбол</div><div class="info">Пон, Сря, Пет — 15:30</div></div>
+</a>
+<a href="basketball.html" class="sport-quick-item">
+<span class="emoji">🏀</span>
+<div><div>Баскетбол</div><div class="info">Вт, Чет — 16:00</div></div>
+</a>
+<a href="volleyball.html" class="sport-quick-item">
+<span class="emoji">🏐</span>
+<div><div>Волейбол</div><div class="info">Пон, Сря — 15:00</div></div>
+</a>
+<a href="handball.html" class="sport-quick-item">
+<span class="emoji">🤾</span>
+<div><div>Хандбал</div><div class="info">Вт, Чет, Пет — 15:00</div></div>
+</a>
+</div>
+</div>
+
+<div class="highlight-card">
+<h3>🎁 Защо да се запишеш?</h3>
+<p>Членството в нашия клуб е напълно безплатно и носи много ползи:</p>
+<ul>
+<li>Безплатни тренировки с опитни треньори</li>
+<li>Участие в турнири и мачове</li>
+<li>Нови приятелства и teamwork умения</li>
+<li>Поддържане на здравословен начин на живот</li>
+<li>Официална клубна тениска при записване</li>
+<li>Грамоти и награди при постижения</li>
+</ul>
+</div>
+</div>
+</div>
+
+<footer>
+<p><strong>ПГКПИ Спортен Клуб</strong> | Изработено с ❤️ от ученици на ПГКПИ</p>
+<p>© 2025 Всички права запазени &nbsp;·&nbsp; Ученически проект</p>
+</footer>
+
+<script>
+function handleSubmit(e) {
+// Проверка дали е избран спорт
+const sport = document.querySelector('input[name="Sport"]:checked');
+if (!sport) {
+e.preventDefault();
+alert('Моля, избери спорт преди да изпратиш формата.');
+return;
+}
+
+// Ако Formspree не е конфигуриран — покажи демо съобщение
+const formAction = document.getElementById('signupForm').action;
+if (formAction.includes('YOUR_FORM_ID')) {
+e.preventDefault();
+document.getElementById('successMsg').style.display = 'block';
+document.getElementById('signupForm').reset();
+window.scrollTo({ top: document.getElementById('successMsg').offsetTop - 100, behavior: 'smooth' });
+}
+
+}
+</script>
+
+</body>
+</html>
