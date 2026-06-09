@@ -14,6 +14,6 @@
 * **CSS3** — за оформяне на модерния дизайн, падащото меню за спортовете и пълна адаптивност към мобилни устройства.
 * **GitHub & GitHub Classroom** — за съвместна екипна работа и контрол на версиите.
 
-### 🔗 Линк към публикувания сайт:
-Можете да разгледате нашия уебсайт на живо в GitHub Pages тук:  
-👉 
+### 🔗 Links:
+Powerpoint presentation-https://codingburgas-my.sharepoint.com/:p:/g/personal/gtdanev25_codingburgas_bg/IQAOr1L5MknNTatHujlPxBSvAW7oArxBkGV3njMjn3Ki9uw?e=GZLoWu
+Documation Word-https://codingburgas-my.sharepoint.com/:w:/g/personal/gtdanev25_codingburgas_bg/IQDjMz3aOADvSLpfnllKfae9AV4sBPAEL1z9-owDQ-ZL-1A?e=7SEAHx
