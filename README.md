@@ -16,4 +16,5 @@
 
 ### 🔗 Links:
 Powerpoint presentation-https://codingburgas-my.sharepoint.com/:p:/g/personal/gtdanev25_codingburgas_bg/IQAOr1L5MknNTatHujlPxBSvAW7oArxBkGV3njMjn3Ki9uw?e=GZLoWu
+
 Documation Word-https://codingburgas-my.sharepoint.com/:w:/g/personal/gtdanev25_codingburgas_bg/IQDjMz3aOADvSLpfnllKfae9AV4sBPAEL1z9-owDQ-ZL-1A?e=7SEAHx
